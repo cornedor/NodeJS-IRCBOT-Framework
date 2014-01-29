@@ -1,0 +1,27 @@
+{
+    "enabled":              true,
+    "plugins":              ["copycat"],
+
+    "server":               "irc.freenode.net",
+    "port":                 6667,
+    "secure":               false,
+    "selfSigned":           false,
+    "certExpired":          false,
+    "sasl":                 false,
+    "channels":             ["#kutwinter"],
+
+    "nickName":             "nodejsbot_test",
+    "userName":             "nodejsbot_test",
+    "realName":             "Node JS Bot Framework",
+
+    "autoRejoin":           true,
+    "autoConnect":          true,
+    "floodProtection":      true,
+    "floodProtectionDelay": 10,
+
+    "debug":                true,
+    "showErrors":           true,
+    "stripColors":          true,
+    "channelPrefixes":      "&#",
+    "messageSplit":         512
+}

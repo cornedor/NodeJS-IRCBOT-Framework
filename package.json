@@ -1,0 +1,26 @@
+{
+    "name": "NodeJS-IRCBOT-Framework",
+    "description": "An simple Open Source IRC bot framework written in NodeJS",
+    "version": "0.0.5",
+    "author": "Kevin van der Burgt (http://www.kevinvdburgt.com)",
+
+    "contributors": [
+        {
+            "name": "Kevin van der Burgt",
+            "web": "http://www.kevinvdburgt.com/"
+        }
+    ],
+
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/kevinvdburgt/NodeJS-IRCBOT-Framework"
+    },
+
+    "main": "index.js",
+    "engines": {
+        "node": ">=0.8"
+    },
+    "dependencies": {
+        "irc": "0.3.6"
+    }
+}
