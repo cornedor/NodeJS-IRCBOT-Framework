@@ -1,6 +1,6 @@
 {
-    "enabled":              true,
-    "plugins":              ["linktitle"],
+    "enabled":              false,
+    "plugins":              ["aboutme"],
 
     "server":               "irc.freenode.net",
     "port":                 6667,
@@ -8,11 +8,11 @@
     "selfSigned":           false,
     "certExpired":          false,
     "sasl":                 false,
-    "channels":             ["#localbit"],
+    "channels":             ["#kutwinter"],
 
-    "nickName":             "nodejsbot_test",
-    "userName":             "nodejsbot_test",
-    "realName":             "Node JS Bot Framework",
+    "nickName":             "NodeJSBot",
+    "userName":             "NodeJSBot",
+    "realName":             "NodeJS-IRCBOT-Framework",
 
     "autoRejoin":           true,
     "autoConnect":          true,
