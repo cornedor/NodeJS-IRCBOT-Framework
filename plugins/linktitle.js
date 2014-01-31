@@ -23,6 +23,7 @@ module.exports = function(client, config) {
 
                 //client.say(to, '[DEBUG] Fetching url: ' + url);
 
+
                 http.get(url, function(response) {
                     response.on('data', function(chunk) {
                         var match = titleRegExp.exec(chunk.toString());
