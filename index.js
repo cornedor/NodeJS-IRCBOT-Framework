@@ -29,9 +29,9 @@ filesys.readdirSync('./bots').forEach(function(file) {
                 messageSplit:           config.messageSplit
             });
 
-            config.plugins.forEach(function(plugin, config) {
+            config.plugins.forEach(function(plugin) {
                 console.log('Loading plugin: ' + plugin);
-                plugins.push(require('./plugins/' + plugin + '.js')(client));
+                plugins.push(require('./plugins/' + plugin + '.js')(client, config));
             });
 
             bots.push(client);
