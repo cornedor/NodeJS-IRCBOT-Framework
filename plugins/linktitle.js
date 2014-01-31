@@ -19,7 +19,7 @@ module.exports = function(client, config) {
         if(to.substr(0, 1) === '#') {
             
             if(urlRegExp.test(message)) {
-                var a = urlRegExp.exec(message)[0];
+                var url = urlRegExp.exec(message)[0];
 
                 //client.say(to, '[DEBUG] Fetching url: ' + url);
 
