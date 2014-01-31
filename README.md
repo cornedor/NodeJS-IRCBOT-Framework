@@ -8,6 +8,11 @@ Features
 - Multiply bot clients
 - Easy to write plugins
 
+Plugins
+---
+- copycat, copies text (used for testing)
+- linktitle, get the title of a webpage when someone enters a website URL (thanks to corne dorrestijn for fixing the regex!)
+
 Todo
 ---
 - Framework commandline manager
