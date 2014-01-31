@@ -4,7 +4,7 @@ module.exports = function(client, config) {
     /**
      * Regexp to check if there is any url inside a string.
      */
-    var urlRegExp = new RegExp("([a-zA-Z0-9]+://)?([a-zA-Z0-9_]+:[a-zA-Z0-9_]+@)?([a-zA-Z0-9.-]+\\.[A-Za-z]{2,4})(:[0-9]+)?(/.*)?");
+    var urlRegExp = new RegExp("https?://[a-z0-9\\.\\-]+(\\S*)");
 
     /**
      * Regexp to receive the page title.
@@ -19,7 +19,7 @@ module.exports = function(client, config) {
         if(to.substr(0, 1) === '#') {
             
             if(urlRegExp.test(message)) {
-                var url = urlRegExp.exec(message)[0];
+                var a = urlRegExp.exec(message)[0];
 
                 //client.say(to, '[DEBUG] Fetching url: ' + url);
 
