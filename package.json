@@ -1,6 +1,6 @@
 {
     "name": "NodeJS-IRCBOT-Framework",
-    "description": "An simple Open Source IRC bot framework written in NodeJS",
+    "description": "A simple Open Source IRC bot framework written in NodeJS",
     "version": "0.0.5",
     "author": "Kevin van der Burgt (http://www.kevinvdburgt.com)",
 
