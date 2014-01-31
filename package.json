@@ -21,6 +21,8 @@
         "node": ">=0.8"
     },
     "dependencies": {
-        "irc": "0.3.6"
+        "irc": "0.3.6",
+        "request": "2.33.0",
+        "xml2json": "0.3.2"
     }
 }
